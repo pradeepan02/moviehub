@@ -6,7 +6,7 @@ import MovieList from './components/MovieList';
 import MovieDetails from './components/MovieDetails';
 import LoadingSpinner from './components/LoadingSpinner';
 
-const API_KEY = 'use tour api key'; // Replace with your TMDb API key
+const API_KEY = 'use tour api'; // Replace with your TMDb API key
 const API_URL = `https://api.themoviedb.org/3/movie/popular?api_key=${API_KEY}`;
 
 const App = () => {
